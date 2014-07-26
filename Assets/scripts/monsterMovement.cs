@@ -75,7 +75,6 @@ public class monsterMovement : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.name == "player") {
 			currentTime = 0;
-
 			// monster attacks every 0.5 seconds
 			isAttack = true;	
 
