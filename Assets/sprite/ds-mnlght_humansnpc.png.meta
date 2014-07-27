@@ -1,0 +1,2599 @@
+fileFormatVersion: 2
+guid: 6d24344351d8543999a6a9960f74d8a4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ds-mnlght_humansnpc_0
+    21300002: ds-mnlght_humansnpc_1
+    21300004: ds-mnlght_humansnpc_2
+    21300006: ds-mnlght_humansnpc_3
+    21300008: ds-mnlght_humansnpc_4
+    21300010: ds-mnlght_humansnpc_5
+    21300012: ds-mnlght_humansnpc_6
+    21300014: ds-mnlght_humansnpc_7
+    21300016: ds-mnlght_humansnpc_8
+    21300018: ds-mnlght_humansnpc_9
+    21300020: ds-mnlght_humansnpc_10
+    21300022: ds-mnlght_humansnpc_11
+    21300024: ds-mnlght_humansnpc_12
+    21300026: ds-mnlght_humansnpc_13
+    21300028: ds-mnlght_humansnpc_14
+    21300030: ds-mnlght_humansnpc_15
+    21300032: ds-mnlght_humansnpc_16
+    21300034: ds-mnlght_humansnpc_17
+    21300036: ds-mnlght_humansnpc_18
+    21300038: ds-mnlght_humansnpc_19
+    21300040: ds-mnlght_humansnpc_20
+    21300042: ds-mnlght_humansnpc_21
+    21300044: ds-mnlght_humansnpc_22
+    21300046: ds-mnlght_humansnpc_23
+    21300048: ds-mnlght_humansnpc_24
+    21300050: ds-mnlght_humansnpc_25
+    21300052: ds-mnlght_humansnpc_26
+    21300054: ds-mnlght_humansnpc_27
+    21300056: ds-mnlght_humansnpc_28
+    21300058: ds-mnlght_humansnpc_29
+    21300060: ds-mnlght_humansnpc_30
+    21300062: ds-mnlght_humansnpc_31
+    21300064: ds-mnlght_humansnpc_32
+    21300066: ds-mnlght_humansnpc_33
+    21300068: ds-mnlght_humansnpc_34
+    21300070: ds-mnlght_humansnpc_35
+    21300072: ds-mnlght_humansnpc_36
+    21300074: ds-mnlght_humansnpc_37
+    21300076: ds-mnlght_humansnpc_38
+    21300078: ds-mnlght_humansnpc_39
+    21300080: ds-mnlght_humansnpc_40
+    21300082: ds-mnlght_humansnpc_41
+    21300084: ds-mnlght_humansnpc_42
+    21300086: ds-mnlght_humansnpc_43
+    21300088: ds-mnlght_humansnpc_44
+    21300090: ds-mnlght_humansnpc_45
+    21300092: ds-mnlght_humansnpc_46
+    21300094: ds-mnlght_humansnpc_47
+    21300096: ds-mnlght_humansnpc_48
+    21300098: ds-mnlght_humansnpc_49
+    21300100: ds-mnlght_humansnpc_50
+    21300102: ds-mnlght_humansnpc_51
+    21300104: ds-mnlght_humansnpc_52
+    21300106: ds-mnlght_humansnpc_53
+    21300108: ds-mnlght_humansnpc_54
+    21300110: ds-mnlght_humansnpc_55
+    21300112: ds-mnlght_humansnpc_56
+    21300114: ds-mnlght_humansnpc_57
+    21300116: ds-mnlght_humansnpc_58
+    21300118: ds-mnlght_humansnpc_59
+    21300120: ds-mnlght_humansnpc_60
+    21300122: ds-mnlght_humansnpc_61
+    21300124: ds-mnlght_humansnpc_62
+    21300126: ds-mnlght_humansnpc_63
+    21300128: ds-mnlght_humansnpc_64
+    21300130: ds-mnlght_humansnpc_65
+    21300132: ds-mnlght_humansnpc_66
+    21300134: ds-mnlght_humansnpc_67
+    21300136: ds-mnlght_humansnpc_68
+    21300138: ds-mnlght_humansnpc_69
+    21300140: ds-mnlght_humansnpc_70
+    21300142: ds-mnlght_humansnpc_71
+    21300144: ds-mnlght_humansnpc_72
+    21300146: ds-mnlght_humansnpc_73
+    21300148: ds-mnlght_humansnpc_74
+    21300150: ds-mnlght_humansnpc_75
+    21300152: ds-mnlght_humansnpc_76
+    21300154: ds-mnlght_humansnpc_77
+    21300156: ds-mnlght_humansnpc_78
+    21300158: ds-mnlght_humansnpc_79
+    21300160: ds-mnlght_humansnpc_80
+    21300162: ds-mnlght_humansnpc_81
+    21300164: ds-mnlght_humansnpc_82
+    21300166: ds-mnlght_humansnpc_83
+    21300168: ds-mnlght_humansnpc_84
+    21300170: ds-mnlght_humansnpc_85
+    21300172: ds-mnlght_humansnpc_86
+    21300174: ds-mnlght_humansnpc_87
+    21300176: ds-mnlght_humansnpc_88
+    21300178: ds-mnlght_humansnpc_89
+    21300180: ds-mnlght_humansnpc_90
+    21300182: ds-mnlght_humansnpc_91
+    21300184: ds-mnlght_humansnpc_92
+    21300186: ds-mnlght_humansnpc_93
+    21300188: ds-mnlght_humansnpc_94
+    21300190: ds-mnlght_humansnpc_95
+    21300192: ds-mnlght_humansnpc_96
+    21300194: ds-mnlght_humansnpc_97
+    21300196: ds-mnlght_humansnpc_98
+    21300198: ds-mnlght_humansnpc_99
+    21300200: ds-mnlght_humansnpc_100
+    21300202: ds-mnlght_humansnpc_101
+    21300204: ds-mnlght_humansnpc_102
+    21300206: ds-mnlght_humansnpc_103
+    21300208: ds-mnlght_humansnpc_104
+    21300210: ds-mnlght_humansnpc_105
+    21300212: ds-mnlght_humansnpc_106
+    21300214: ds-mnlght_humansnpc_107
+    21300216: ds-mnlght_humansnpc_108
+    21300218: ds-mnlght_humansnpc_109
+    21300220: ds-mnlght_humansnpc_110
+    21300222: ds-mnlght_humansnpc_111
+    21300224: ds-mnlght_humansnpc_112
+    21300226: ds-mnlght_humansnpc_113
+    21300228: ds-mnlght_humansnpc_114
+    21300230: ds-mnlght_humansnpc_115
+    21300232: ds-mnlght_humansnpc_116
+    21300234: ds-mnlght_humansnpc_117
+    21300236: ds-mnlght_humansnpc_118
+    21300238: ds-mnlght_humansnpc_119
+    21300240: ds-mnlght_humansnpc_120
+    21300242: ds-mnlght_humansnpc_121
+    21300244: ds-mnlght_humansnpc_122
+    21300246: ds-mnlght_humansnpc_123
+    21300248: ds-mnlght_humansnpc_124
+    21300250: ds-mnlght_humansnpc_125
+    21300252: ds-mnlght_humansnpc_126
+    21300254: ds-mnlght_humansnpc_127
+    21300256: ds-mnlght_humansnpc_128
+    21300258: ds-mnlght_humansnpc_129
+    21300260: ds-mnlght_humansnpc_130
+    21300262: ds-mnlght_humansnpc_131
+    21300264: ds-mnlght_humansnpc_132
+    21300266: ds-mnlght_humansnpc_133
+    21300268: ds-mnlght_humansnpc_134
+    21300270: ds-mnlght_humansnpc_135
+    21300272: ds-mnlght_humansnpc_136
+    21300274: ds-mnlght_humansnpc_137
+    21300276: ds-mnlght_humansnpc_138
+    21300278: ds-mnlght_humansnpc_139
+    21300280: ds-mnlght_humansnpc_140
+    21300282: ds-mnlght_humansnpc_141
+    21300284: ds-mnlght_humansnpc_142
+    21300286: ds-mnlght_humansnpc_143
+    21300288: ds-mnlght_humansnpc_144
+    21300290: ds-mnlght_humansnpc_145
+    21300292: ds-mnlght_humansnpc_146
+    21300294: ds-mnlght_humansnpc_147
+    21300296: ds-mnlght_humansnpc_148
+    21300298: ds-mnlght_humansnpc_149
+    21300300: ds-mnlght_humansnpc_150
+    21300302: ds-mnlght_humansnpc_151
+    21300304: ds-mnlght_humansnpc_152
+    21300306: ds-mnlght_humansnpc_153
+    21300308: ds-mnlght_humansnpc_154
+    21300310: ds-mnlght_humansnpc_155
+    21300312: ds-mnlght_humansnpc_156
+    21300314: ds-mnlght_humansnpc_157
+    21300316: ds-mnlght_humansnpc_158
+    21300318: ds-mnlght_humansnpc_159
+    21300320: ds-mnlght_humansnpc_160
+    21300322: ds-mnlght_humansnpc_161
+    21300324: ds-mnlght_humansnpc_162
+    21300326: ds-mnlght_humansnpc_163
+    21300328: ds-mnlght_humansnpc_164
+    21300330: ds-mnlght_humansnpc_165
+    21300332: ds-mnlght_humansnpc_166
+    21300334: ds-mnlght_humansnpc_167
+    21300336: ds-mnlght_humansnpc_168
+    21300338: ds-mnlght_humansnpc_169
+    21300340: ds-mnlght_humansnpc_170
+    21300342: ds-mnlght_humansnpc_171
+    21300344: ds-mnlght_humansnpc_172
+    21300346: ds-mnlght_humansnpc_173
+    21300348: ds-mnlght_humansnpc_174
+    21300350: ds-mnlght_humansnpc_175
+    21300352: ds-mnlght_humansnpc_176
+    21300354: ds-mnlght_humansnpc_177
+    21300356: ds-mnlght_humansnpc_178
+    21300358: ds-mnlght_humansnpc_179
+    21300360: ds-mnlght_humansnpc_180
+    21300362: ds-mnlght_humansnpc_181
+    21300364: ds-mnlght_humansnpc_182
+    21300366: ds-mnlght_humansnpc_183
+    21300368: ds-mnlght_humansnpc_184
+    21300370: ds-mnlght_humansnpc_185
+    21300372: ds-mnlght_humansnpc_186
+    21300374: ds-mnlght_humansnpc_187
+    21300376: ds-mnlght_humansnpc_188
+    21300378: ds-mnlght_humansnpc_189
+    21300380: ds-mnlght_humansnpc_190
+    21300382: ds-mnlght_humansnpc_191
+    21300384: ds-mnlght_humansnpc_192
+    21300386: ds-mnlght_humansnpc_193
+    21300388: ds-mnlght_humansnpc_194
+    21300390: ds-mnlght_humansnpc_195
+    21300392: ds-mnlght_humansnpc_196
+    21300394: ds-mnlght_humansnpc_197
+    21300396: ds-mnlght_humansnpc_198
+    21300398: ds-mnlght_humansnpc_199
+    21300400: ds-mnlght_humansnpc_200
+    21300402: ds-mnlght_humansnpc_201
+    21300404: ds-mnlght_humansnpc_202
+    21300406: ds-mnlght_humansnpc_203
+    21300408: ds-mnlght_humansnpc_204
+    21300410: ds-mnlght_humansnpc_205
+    21300412: ds-mnlght_humansnpc_206
+    21300414: ds-mnlght_humansnpc_207
+    21300416: ds-mnlght_humansnpc_208
+    21300418: ds-mnlght_humansnpc_209
+    21300420: ds-mnlght_humansnpc_210
+    21300422: ds-mnlght_humansnpc_211
+    21300424: ds-mnlght_humansnpc_212
+    21300426: ds-mnlght_humansnpc_213
+    21300428: ds-mnlght_humansnpc_214
+    21300430: ds-mnlght_humansnpc_215
+    21300432: ds-mnlght_humansnpc_216
+    21300434: ds-mnlght_humansnpc_217
+    21300436: ds-mnlght_humansnpc_218
+    21300438: ds-mnlght_humansnpc_219
+    21300440: ds-mnlght_humansnpc_220
+    21300442: ds-mnlght_humansnpc_221
+    21300444: ds-mnlght_humansnpc_222
+    21300446: ds-mnlght_humansnpc_223
+    21300448: ds-mnlght_humansnpc_224
+    21300450: ds-mnlght_humansnpc_225
+    21300452: ds-mnlght_humansnpc_226
+    21300454: ds-mnlght_humansnpc_227
+    21300456: ds-mnlght_humansnpc_228
+    21300458: ds-mnlght_humansnpc_229
+    21300460: ds-mnlght_humansnpc_230
+    21300462: ds-mnlght_humansnpc_231
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ds-mnlght_humansnpc_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 523
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 523
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 523
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 523
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 523
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 523
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_12
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_17
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 491
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_21
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 491
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_22
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_23
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_24
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 491
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 491
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_27
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_28
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_29
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 491
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_30
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 491
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_31
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 491
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_32
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 491
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_33
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 491
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_36
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_39
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_40
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_41
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_43
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_44
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_45
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_46
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_47
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_48
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 458
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_49
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 458
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_50
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_51
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_52
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 458
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 458
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_54
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_55
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_56
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 458
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_57
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 458
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 419
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_59
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 419
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_60
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 419
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 419
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_62
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 419
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 419
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_64
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 419
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 419
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_66
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 419
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 428
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_68
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 419
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_69
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 419
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_70
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 419
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_71
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 419
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_72
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 419
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_73
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 427
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_74
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 419
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_75
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 419
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_76
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 419
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_77
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 419
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_78
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 419
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_79
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 384
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 384
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_81
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 384
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_83
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 384
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_84
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 384
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_85
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 384
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_86
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 384
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_87
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 384
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 331
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_89
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 331
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_90
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 331
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_91
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 331
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_92
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 331
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_93
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 300
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_94
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_95
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_97
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 300
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_99
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_100
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 300
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 300
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_102
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 300
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_103
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 300
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_104
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 300
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_105
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_106
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_107
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_108
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 300
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_109
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 300
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_110
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 300
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_111
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 268
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_112
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_113
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_115
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 268
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_118
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 268
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_119
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 268
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_120
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 268
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_121
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 268
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_122
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 268
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_123
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_124
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_125
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_126
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 268
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_127
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 268
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_128
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 268
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_129
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_130
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 229
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_131
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 229
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_132
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 237
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_133
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 229
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 229
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_135
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 229
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_136
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 237
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_137
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 229
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 229
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_139
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 229
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_140
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 237
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_141
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 229
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_142
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 229
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_143
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 229
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_144
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 229
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_145
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 229
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_146
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 229
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_147
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 229
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_148
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 237
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 229
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_150
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 229
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_151
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 229
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_152
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 229
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_153
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_154
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 193
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_155
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 193
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_157
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 193
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_158
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 193
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_159
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 193
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_161
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 193
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 193
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_163
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 183
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_164
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 193
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_165
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_166
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 193
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_167
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 193
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_168
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 193
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_169
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 193
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_170
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 193
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_171
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_172
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 193
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_173
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 161
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_174
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 161
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_175
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 161
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_176
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_177
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 158
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_178
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 158
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_179
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 158
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_180
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 158
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_181
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 158
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_182
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 158
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_183
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 158
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_184
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 158
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_185
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 158
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_186
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 129
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_187
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 129
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_188
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 129
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_190
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_191
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_192
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 68
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_193
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 68
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_194
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 68
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_195
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 68
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_196
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_197
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_198
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_199
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_200
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_201
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_202
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_203
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_204
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_205
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_206
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_207
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_208
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_209
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_210
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 36
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_211
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 36
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_212
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 36
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_213
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 36
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_214
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_215
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_216
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_217
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_218
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_219
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_220
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_221
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_222
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_223
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_224
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_225
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_226
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_227
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_228
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 4
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_229
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_230
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ds-mnlght_humansnpc_231
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 4
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

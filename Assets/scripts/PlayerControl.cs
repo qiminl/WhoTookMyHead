@@ -15,11 +15,12 @@ public class PlayerControl : MonoBehaviour
 	public float jumpForce = 50000f;			// Amount of force added when the player jumps.
 
 	private Transform groundCheck;			// A position marking where to check if the player is grounded.
-	private bool grounded = false;			// Whether or not the player is grounded.
+	public bool grounded = false;			// Whether or not the player is grounded.
 	private Animator anim;					// Reference to the player's animator component.
 	public int maxHP;
 	public int remainingHP;
 	public int fillHPmaxWidth = 100;
+	public Transform camPos;
 	GUITexture fillHP;
 	
 
@@ -32,6 +33,8 @@ public class PlayerControl : MonoBehaviour
 		fillHP = HP.GetComponent (typeof(GUITexture)) as GUITexture;
 		maxHP = 100;
 		remainingHP = maxHP;
+		camPos = transform.Find("/Main Camera/CamPos");
+		camPos.position = transform.position;
 			
 	}
 
@@ -42,7 +45,8 @@ public class PlayerControl : MonoBehaviour
 				Destroy(this.gameObject, 0.5f);		
 			}
 					// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
-			grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));  
+			grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
+
 			print ("player grounded ?" + grounded);
 			anim.SetBool ("Grounded", grounded);
 			// If the jump button is pressed and the player is grounded then the player should jump.
@@ -51,6 +55,9 @@ public class PlayerControl : MonoBehaviour
 			if (remainingHP <= 0) {
 				died = true;		
 			}
+		if (grounded) {
+			camPos.position = groundCheck.position;		
+		}
 	}
 
 	void FixedUpdate ()
@@ -100,7 +107,7 @@ public class PlayerControl : MonoBehaviour
 					// Make sure the player can't jump again until the jump conditions from Update are satisfied.
 					jump = false;
 			}
-			edgeDetection ();
+		//	edgeDetection ();
 	}
 
 	void Flip ()

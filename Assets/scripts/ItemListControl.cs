@@ -17,13 +17,13 @@ public class ItemListControl : MonoBehaviour {
 	void Update () {
 		for (int i = 0; i < sprites.Length; i++) {
 			string currentSpriteName = sprites[i].ToString();
-			print("currentSpriteName = " + currentSpriteName);
+		//	print("currentSpriteName = " + currentSpriteName);
 			string realSpriteName = spriteName + " (UnityEngine.Sprite)";
-			print ("realSpriteName = " + realSpriteName);
+		//	print ("realSpriteName = " + realSpriteName);
 			if(currentSpriteName == realSpriteName){
-				print("currentSpriteName ======== spriteName");
+			//	print("currentSpriteName ======== spriteName");
 				spriteRenderer.sprite = sprites[i];
-				print("sprite should changed");
+			//	print("sprite should changed");
 			}		
 		}
 	
