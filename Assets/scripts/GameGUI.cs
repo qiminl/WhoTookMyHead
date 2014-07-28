@@ -23,7 +23,7 @@ public class GameGUI : MonoBehaviour {
 				
 				SpriteRenderer cloneSprite = clone.GetComponent<SpriteRenderer> ();
 				string itemSpriteName = itemList [i] as string;
-				print ("itemSprite = " + itemSpriteName);
+				//print ("itemSprite = " + itemSpriteName);
 				ItemListControl itemControl = clone.GetComponent<ItemListControl>();
 				itemControl.spriteName = itemSpriteName;
 				clone.name = itemSpriteName;
@@ -41,8 +41,8 @@ public class GameGUI : MonoBehaviour {
 			Vector3 itemViewPos = new Vector3(itemScreenPos.x, itemScreenPos.y, 2);
 
 			Vector2 itemPos = Camera.main.ViewportToWorldPoint(itemViewPos);
-			print("itemScreenPos ["+i+"] =" + itemScreenPos);
-			print("itemPos [" + i + "]" + itemPos);
+			//print("itemScreenPos ["+i+"] =" + itemScreenPos);
+			//print("itemPos [" + i + "]" + itemPos);
 			GameObject itemObject = itemObjectList[i] as GameObject;
 			itemObject.transform.localPosition = itemPos;
 			

@@ -7,18 +7,20 @@ public class cameraController : MonoBehaviour {
 	GameObject player;
 	public float xSpeed = 0.1f;
 	public float ySpeed = 0.1f;
+	PlayerControl playerControl;
 	// Use this for initialization
 	void Start () {
 
 		player = GameObject.Find("player");
+		playerControl = player.GetComponent<PlayerControl> ();
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		transform.position = new Vector3(player.transform.position.x, player.transform.position.y, -4);
-		edgeDetection ();
+		transform.position = new Vector3 (player.transform.position.x, playerControl.camPos.position.y, -8);
+	//	edgeDetection ();
 
 
 	}

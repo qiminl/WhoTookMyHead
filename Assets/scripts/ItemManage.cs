@@ -19,7 +19,7 @@ public class ItemManage : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Player") {
-			print("player Entered!!!");	
+	//		print("player Entered!!!");	
 			gameGUI.itemList.Add(this.gameObject.name);
 			if(this.gameObject.name == "mario_kart_wii_item_icons_5"){
 				GameObject opposite = GameObject.Find("mario_kart_wii_item_icons_0");

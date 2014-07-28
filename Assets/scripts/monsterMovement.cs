@@ -37,15 +37,16 @@ public class monsterMovement : MonoBehaviour {
 		if (grounded) {
 			groundedPos = transform.position;
 		}
-		// if not grounded and falling, return to the position before drops
-		if (!grounded && rigidbody2D.velocity.y < 0) {
-			transform.position = groundedPos;	
-		}
+
 		if (!grounded && !turned) {
 			Flip (); 
 		}
 		else if (grounded && turned) {
 			turned = false;
+		}
+		// if not grounded and falling, return to the position before drops
+		if (!grounded && rigidbody2D.velocity.y < 0) {
+			transform.position = groundedPos;	
 		}
 		rigidbody2D.velocity = new Vector2 (xSpeed, rigidbody2D.velocity.y);
 
@@ -75,7 +76,6 @@ public class monsterMovement : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.name == "player") {
 			currentTime = 0;
-
 			// monster attacks every 0.5 seconds
 			isAttack = true;	
 
