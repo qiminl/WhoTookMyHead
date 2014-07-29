@@ -35,7 +35,6 @@ public class ItemManage : MonoBehaviour {
 		if (effect == "GET_RECTHEAD") {
 			GameObject player = GameObject.Find("player");
 			PlayerControl playerControl = player.GetComponent<PlayerControl>();
-
 		}
 	}
 }

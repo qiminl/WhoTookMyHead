@@ -52,8 +52,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a32a8139423774619b127604b608ddc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oppositeObject: {fileID: 0}
-  effect: 
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
