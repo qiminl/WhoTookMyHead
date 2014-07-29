@@ -28,7 +28,7 @@ public class QuestList : MonoBehaviour {
 	// show the To DO list
 	void OnGUi(){
 		for (int i = 0; i < questList.Count; i++) {
-			GUI.Box ()		
+		//	GUI.Box ()		
 		}
 	}
 }

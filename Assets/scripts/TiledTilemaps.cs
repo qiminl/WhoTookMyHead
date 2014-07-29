@@ -225,7 +225,7 @@ public class TiledTilemaps : MonoBehaviour
 					int gidColumn = 0;
 					
 					layer.gids = new int[tilemapWidth, tilemapHeight];
-					
+					print("gidNodes.Count = " + gidsNodes.Count);
 					for (int gi = 0; gi < gidsNodes.Count; gi++)
 					{	
 						layer.gids[gidRow,gidColumn] = System.Convert.ToInt32(gidsNodes[gi].Attributes["gid"].Value);

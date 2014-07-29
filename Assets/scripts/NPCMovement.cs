@@ -6,6 +6,7 @@ public class NPCMovement : MonoBehaviour {
 
 	public bool textDisplay;
 	public string wordsToSay;
+	public string inputWords;
 	// Use this for initialization
 	void Start () {
 		wordsToSay = "";
@@ -22,13 +23,7 @@ public class NPCMovement : MonoBehaviour {
 			print("ray = " + ray);
 			if (Physics.Raycast (ray, out hit))
 			{  
-				print("mouseClicked!");
-				if(gameObject.name == "NPC1"){
-					showWords("Hello Youngster, I guess your head is taken by the Head Evil." +
-						"You need to learn your control to find your head\n" +
-						"Try to use Left Arrow Key and Right Arrow to move around, " +
-					          "And space button to jump\n");
-				}
+				wordsToSay = inputWords;
 
 			}
 			else{
@@ -54,7 +49,7 @@ public class NPCMovement : MonoBehaviour {
 		//	style.
 			GUIContent boxText = new GUIContent("" + wordsToSay);
 			style.alignment = TextAnchor.MiddleLeft;
-			Rect boxGUI = new Rect( 50, Screen.height - 100, Screen.width - 100, 100);
+			Rect boxGUI = new Rect( 50, Screen.height - 150, Screen.width - 100, 150);
 			GUI.Box(boxGUI, boxText, style);
 		//	Vector3 viewPointPos = Camera.main.ScreenToViewportPoint(new Vector3(0, 350));
 		//	GUI.Label (new Rect (0, 350, 700, 50), wordsToSay);
