@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
 	public int fillHPmaxWidth = 100;
 //	public Transform camPos;
 	GUITexture fillHP;
-
+	public int headNum;	// 0 for headLess, 1 for rectHead, 2 for triangleHead
 
 	void Start(){
 //		camPos = transform.Find("/Main Camera/CamPos");
@@ -47,8 +47,21 @@ public class PlayerControl : MonoBehaviour
 		if (died == true) {
 			print ("player is dead");
 			anim.SetBool("Dead", true);
+				Destroy(this.gameObject, 0.5f);		
+			}
+					// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
+	//		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
+
+			print ("player grounded ?" + grounded);
+			anim.SetBool ("Grounded", grounded);
+			// If the jump button is pressed and the player is grounded then the player should jump.
+			if (Input.GetButtonDown ("Jump") && grounded)
+					jump = true;
+			if (remainingHP <= 0) {
+				died = true;		
+			}
+
 			Destroy(this.gameObject, 0.5f);		
-		}
 				// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
 		
@@ -60,6 +73,7 @@ public class PlayerControl : MonoBehaviour
 		if (remainingHP <= 0) {
 			died = true;		
 		}
+
 		if (grounded) {
 	//		camPos.position = groundCheck.position;		
 		}
@@ -69,6 +83,23 @@ public class PlayerControl : MonoBehaviour
 	void FixedUpdate ()
 	{
 
+		if (headNum == 0) {
+			anim.SetBool ("headLess", true);
+			anim.SetBool ("rectHead", false);
+			anim.SetBool ("triangleHead", false);
+		}
+		else if (headNum == 1) {
+			anim.SetBool ("headLess", false);
+			anim.SetBool ("rectHead", true);
+			anim.SetBool ("triangleHead", false);
+					
+		}
+		else if (headNum == 2) {
+			anim.SetBool ("headLess", false);
+			anim.SetBool ("rectHead", false);
+			anim.SetBool ("triangleHead", true);
+			
+		}
 //			Rect pixelInset = fillHP.pixelInset;
 //			pixelInset.width = 100 * remainingHP / maxHP;
 	//		fillHP.pixelInset = pixelInset;
@@ -155,6 +186,7 @@ void OnCollisionEnter2D(Collision2D other){
 			}
 	}
 }
+}
 /*
 void OnTriggerEnter2D(Collider2D other) {
 	print ("sth entered!!!");
@@ -211,4 +243,3 @@ int TauntRandom()
 		return i;
 }
 */
-}

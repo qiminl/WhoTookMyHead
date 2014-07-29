@@ -37,7 +37,9 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
+'Assets/groundCheckScript.cs'
 'Assets/groungCheckScript.cs'
+'Assets/scripts/CameraControl.cs'
 'Assets/scripts/CameraFollow.cs'
 'Assets/scripts/GameGUI.cs'
 'Assets/scripts/GameObjectTextScript.cs'
