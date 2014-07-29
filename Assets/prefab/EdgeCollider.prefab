@@ -8,9 +8,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 61: {fileID: 6100000}
-  m_Layer: 0
-  m_Name: boxCollider
+  - 68: {fileID: 6800000}
+  m_Layer: 12
+  m_Name: EdgeCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23,12 +23,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.78046036, y: -1.20525813, z: 0}
+  m_LocalPosition: {x: 4.16843605, y: .0657408237, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!61 &6100000
-BoxCollider2D:
+--- !u!68 &6800000
+EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -36,8 +36,9 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 7.92362022, y: .335562706}
-  m_Center: {x: 3.46181202, y: .332218409}
+  m_Points:
+  - {x: -1.12147307, y: -.27744329}
+  - {x: 2.17575741, y: 3.04077792}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
