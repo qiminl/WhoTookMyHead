@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
 	public int fillHPmaxWidth = 100;
 //	public Transform camPos;
 	GUITexture fillHP;
-
+	public int headNum;	// 0 for headLess, 1 for rectHead, 2 for triangleHead
 
 	void Start(){
 //		camPos = transform.Find("/Main Camera/CamPos");
@@ -69,6 +69,23 @@ public class PlayerControl : MonoBehaviour
 	void FixedUpdate ()
 	{
 
+		if (headNum == 0) {
+			anim.SetBool ("headLess", true);
+			anim.SetBool ("rectHead", false);
+			anim.SetBool ("triangleHead", false);
+		}
+		else if (headNum == 1) {
+			anim.SetBool ("headLess", false);
+			anim.SetBool ("rectHead", true);
+			anim.SetBool ("triangleHead", false);
+					
+		}
+		else if (headNum == 2) {
+			anim.SetBool ("headLess", false);
+			anim.SetBool ("rectHead", false);
+			anim.SetBool ("triangleHead", true);
+			
+		}
 //			Rect pixelInset = fillHP.pixelInset;
 //			pixelInset.width = 100 * remainingHP / maxHP;
 	//		fillHP.pixelInset = pixelInset;
