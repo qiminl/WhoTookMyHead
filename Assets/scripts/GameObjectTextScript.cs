@@ -47,7 +47,7 @@ public class GameObjectTextScript : MonoBehaviour {
 			thisTransform.position = cam.WorldToViewportPoint(target.position + offset);
 		}
 		transform.position = thisTransform.position;
-		print ("text position = " + transform.position);
+	//	print ("text position = " + transform.position);
 	}
 
 }

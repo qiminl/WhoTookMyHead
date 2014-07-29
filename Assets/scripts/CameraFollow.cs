@@ -39,7 +39,7 @@ public class CameraFollow : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-		if (playerTransform == null) {
+		while (playerTransform == null) {
 			playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
 			transform.position = new Vector3 (playerTransform.position.x, playerTransform.position.y, -8);
 
