@@ -7,8 +7,6 @@ public class ItemManage : MonoBehaviour {
 	GameGUI gameGUI;
 	GUIText itemInfo;
 	public GameObject oppositeObject;
-	public string effect;
-
 	// Use this for initialization
 	void Start () {
 		guiControl = GameObject.Find("TileMap");
@@ -29,13 +27,6 @@ public class ItemManage : MonoBehaviour {
 				Destroy(oppositeObject);
 			}
 			Destroy(this.gameObject);
-		}
-	}
-	void showEffect(string effect){
-		if (effect == "GET_RECTHEAD") {
-			GameObject player = GameObject.Find("player");
-			PlayerControl playerControl = player.GetComponent<PlayerControl>();
-
 		}
 	}
 }
