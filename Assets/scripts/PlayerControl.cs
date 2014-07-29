@@ -47,7 +47,6 @@ public class PlayerControl : MonoBehaviour
 		if (died == true) {
 			print ("player is dead");
 			anim.SetBool("Dead", true);
-<<<<<<< HEAD
 				Destroy(this.gameObject, 0.5f);		
 			}
 					// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
@@ -61,9 +60,8 @@ public class PlayerControl : MonoBehaviour
 			if (remainingHP <= 0) {
 				died = true;		
 			}
-=======
+
 			Destroy(this.gameObject, 0.5f);		
-		}
 				// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
 		
@@ -75,7 +73,7 @@ public class PlayerControl : MonoBehaviour
 		if (remainingHP <= 0) {
 			died = true;		
 		}
->>>>>>> FETCH_HEAD
+
 		if (grounded) {
 	//		camPos.position = groundCheck.position;		
 		}
@@ -188,6 +186,7 @@ void OnCollisionEnter2D(Collision2D other){
 			}
 	}
 }
+}
 /*
 void OnTriggerEnter2D(Collider2D other) {
 	print ("sth entered!!!");
@@ -244,4 +243,3 @@ int TauntRandom()
 		return i;
 }
 */
-}
