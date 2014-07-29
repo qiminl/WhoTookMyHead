@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class NPCMovement : MonoBehaviour {
 
@@ -23,13 +24,28 @@ public class NPCMovement : MonoBehaviour {
 			print("ray = " + ray);
 			if (Physics.Raycast (ray, out hit))
 			{  
-				wordsToSay = inputWords;
+				if(hit.transform.gameObject == gameObject){
+					// deal with the inputWords
+			//		int j = 0;
+					print ("inputWords: " + inputWords);
+					string[] stringSeperators = new string[] {"endl"};
+					string[] lines = inputWords.Split(stringSeperators, StringSplitOptions.None);
+					foreach(string s in lines){
+						if(s.Trim() != ""){
+							wordsToSay += (s + "\n");
+						}
+					}
+				}
+				else{
+					wordsToSay = "";
+				}
 
 			}
 			else{
 				wordsToSay = "";
 			}
 		}
+		print (gameObject.name + "\t says: " + wordsToSay);
 	
 	}
 	void showWords(string s){

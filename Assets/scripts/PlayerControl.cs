@@ -44,8 +44,10 @@ public class PlayerControl : MonoBehaviour
 
 	void Update ()
 	{
-			if (died == true) {
+		if (died == true) {
+			print ("player is dead");
 			anim.SetBool("Dead", true);
+<<<<<<< HEAD
 				Destroy(this.gameObject, 0.5f);		
 			}
 					// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
@@ -59,6 +61,21 @@ public class PlayerControl : MonoBehaviour
 			if (remainingHP <= 0) {
 				died = true;		
 			}
+=======
+			Destroy(this.gameObject, 0.5f);		
+		}
+				// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
+		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
+		
+		print ("player grounded ?" + grounded);
+		anim.SetBool ("Grounded", grounded);
+		// If the jump button is pressed and the player is grounded then the player should jump.
+		if (Input.GetButtonDown ("Jump") && grounded)
+				jump = true;
+		if (remainingHP <= 0) {
+			died = true;		
+		}
+>>>>>>> FETCH_HEAD
 		if (grounded) {
 	//		camPos.position = groundCheck.position;		
 		}
@@ -112,7 +129,7 @@ public class PlayerControl : MonoBehaviour
 					// Make sure the player can't jump again until the jump conditions from Update are satisfied.
 					jump = false;
 			}
-		//	edgeDetection ();
+			edgeDetection ();
 	}
 
 	void Flip ()
@@ -128,12 +145,13 @@ public class PlayerControl : MonoBehaviour
 
 	void edgeDetection ()
 	{
-			if (transform.position.x < -10) {
+		/*	if (transform.position.x < -10) {
 					transform.position = new Vector3 (-10f, transform.position.y, transform.position.z);
 		
 			} else if (transform.position.x > 35) {
 					transform.position = new Vector3 (35f, transform.position.y, transform.position.z);		
-			}
+			}*/
+
 			if (transform.position.y < -20) {
 					died = true;
 		
