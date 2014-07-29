@@ -8,10 +8,21 @@
       <File FileName="Assets/scripts/GameGUI.cs" Line="12" Column="1" />
 =======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/NPCMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/PlayerControl.cs">
     <Files>
+<<<<<<< HEAD
+      <File FileName="Assets/scripts/PlayerControl.cs" Line="86" Column="38" />
+      <File FileName="Assets/scripts/GameObjectTextScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/GameGUI.cs" Line="30" Column="27" />
+      <File FileName="Assets/scripts/CameraFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Quest.cs" Line="22" Column="1" />
+      <File FileName="Assets/scripts/TiledTilemaps.cs" Line="1" Column="1" />
+      <File FileName="Assets/TileAssets/IntroFirst.xml" Line="5" Column="12" />
+      <File FileName="Assets/scripts/ItemManage.cs" Line="11" Column="1" />
+=======
       <File FileName="Assets/scripts/NPCMovement.cs" Line="40" Column="22" />
       <File FileName="Assets/groungCheckScript.cs" Line="26" Column="34" />
+>>>>>>> FETCH_HEAD
 >>>>>>> FETCH_HEAD
     </Files>
   </MonoDevelop.Ide.Workbench>
