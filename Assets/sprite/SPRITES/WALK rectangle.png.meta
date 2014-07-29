@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 84343e3e7865644cbbbbd321a780d902
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WALK rectangle_0
+    21300002: WALK rectangle_1
+    21300004: WALK rectangle_2
+    21300006: WALK rectangle_3
+    21300008: WALK rectangle_4
+    21300010: WALK rectangle_5
+    21300012: WALK rectangle_6
+    21300014: WALK rectangle_7
+    21300016: WALK rectangle_8
+    21300018: WALK rectangle_9
+    21300020: WALK rectangle_10
+    21300022: WALK rectangle_11
+    21300024: WALK rectangle_12
+    21300026: WALK rectangle_13
+    21300028: WALK rectangle_14
+    21300030: WALK rectangle_15
+    21300032: WALK rectangle_16
+    21300034: WALK rectangle_17
+    21300036: WALK rectangle_18
+    21300038: WALK rectangle_19
+    21300040: WALK rectangle_20
+    21300042: WALK rectangle_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WALK rectangle_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_7
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_10
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_11
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 0
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_12
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_13
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_14
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_15
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_16
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 0
+        width: 62
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_17
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_18
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_19
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 0
+        width: 62
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_20
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 0
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK rectangle_21
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 0
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

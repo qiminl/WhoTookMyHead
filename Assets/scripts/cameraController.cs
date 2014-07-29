@@ -19,7 +19,7 @@ public class cameraController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		transform.position = new Vector3 (player.transform.position.x, playerControl.camPos.position.y, -8);
+//		transform.position = new Vector3 (player.transform.position.x, playerControl.camPos.position.y, -8);
 	//	edgeDetection ();
 
 

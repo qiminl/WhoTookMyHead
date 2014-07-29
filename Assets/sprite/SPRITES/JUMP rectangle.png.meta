@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: efcb76c0794c64e2fa8b03c43781827d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JUMP rectangle
+    21300002: JUMP rectangle_0
+    21300004: JUMP rectangle_1
+    21300006: JUMP rectangle_2
+    21300008: JUMP rectangle_3
+    21300010: JUMP rectangle_4
+    21300012: JUMP rectangle_5
+    21300014: JUMP rectangle_6
+    21300016: JUMP rectangle_7
+    21300018: JUMP rectangle_8
+    21300020: JUMP rectangle_9
+    21300022: JUMP rectangle_10
+    21300024: JUMP rectangle_11
+    21300026: JUMP rectangle_12
+    21300028: JUMP rectangle_13
+    21300030: JUMP rectangle_14
+    21300032: JUMP rectangle_15
+    21300034: JUMP rectangle_16
+    21300036: JUMP rectangle_17
+    21300038: JUMP rectangle_18
+    21300040: JUMP rectangle_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JUMP rectangle_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 60
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 62
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 62
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 53
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_7
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 0
+        width: 53
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_8
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 0
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_9
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 0
+        width: 63
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_10
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 0
+        width: 74
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_11
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 0
+        width: 76
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_12
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 0
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_13
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 0
+        width: 74
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_14
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_15
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 0
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_16
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 0
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_17
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 0
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_18
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 0
+        width: 65
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JUMP rectangle_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 61
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

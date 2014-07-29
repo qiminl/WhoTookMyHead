@@ -6,7 +6,16 @@ public class GameGUI : MonoBehaviour {
 	public ArrayList itemList;
 	private int ArrayLength;
 	public ArrayList itemObjectList;
+	private GameObject player;
+	public GameObject entryDoor;
 	void Start () {
+		Vector3 playerInsPos = entryDoor.transform.position;
+		Object playerObject = Resources.Load ("player", typeof(GameObject));
+		player = Instantiate (playerObject, playerInsPos, Quaternion.identity) as GameObject;
+		player.name = "player";
+		if (player == null) {
+			print ("player not created");		
+		}
 		itemList = new ArrayList ();
 		ArrayLength = itemList.Count;
 		itemObjectList = new ArrayList();

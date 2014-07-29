@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: ace114bcdc0954307abb04498fa2b532
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WALK headless_0
+    21300002: WALK headless_1
+    21300004: WALK headless_2
+    21300006: WALK headless_3
+    21300008: WALK headless_4
+    21300010: WALK headless_5
+    21300012: WALK headless_6
+    21300014: WALK headless_7
+    21300016: WALK headless_8
+    21300018: WALK headless_9
+    21300020: WALK headless_10
+    21300022: WALK headless_11
+    21300024: WALK headless_12
+    21300026: WALK headless_13
+    21300028: WALK headless_14
+    21300030: WALK headless_15
+    21300032: WALK headless_16
+    21300034: WALK headless_17
+    21300036: WALK headless_18
+    21300038: WALK headless_19
+    21300040: WALK headless_20
+    21300042: WALK headless_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WALK headless_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_5
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_9
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_10
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_11
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 0
+        width: 61
+        height: 77
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_12
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_13
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_14
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_15
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_16
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_17
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_18
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_19
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_20
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 0
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WALK headless_21
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 0
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -20,22 +20,26 @@ public class PlayerControl : MonoBehaviour
 	public int maxHP;
 	public int remainingHP;
 	public int fillHPmaxWidth = 100;
-	public Transform camPos;
+//	public Transform camPos;
 	GUITexture fillHP;
-	
+
+
+	void Start(){
+//		camPos = transform.Find("/Main Camera/CamPos");
+//		camPos.position = transform.position;
+
+	}
 
 	void Awake ()
 	{
 		// Setting up references.
-		groundCheck = transform.Find ("/player/groundCheck");
+		groundCheck = transform.Find ("groundCheck");
 		anim = GetComponent<Animator> ();
 		GameObject HP = GameObject.Find("fillHP");
-		fillHP = HP.GetComponent (typeof(GUITexture)) as GUITexture;
+//		fillHP = HP.GetComponent (typeof(GUITexture)) as GUITexture;
 		maxHP = 100;
 		remainingHP = maxHP;
-		camPos = transform.Find("/Main Camera/CamPos");
-		camPos.position = transform.position;
-			
+
 	}
 
 	void Update ()
@@ -56,16 +60,17 @@ public class PlayerControl : MonoBehaviour
 				died = true;		
 			}
 		if (grounded) {
-			camPos.position = groundCheck.position;		
+	//		camPos.position = groundCheck.position;		
 		}
+	//	print ("camPos = " + camPos.positio//n);
 	}
 
 	void FixedUpdate ()
 	{
 
-			Rect pixelInset = fillHP.pixelInset;
-			pixelInset.width = 100 * remainingHP / maxHP;
-			fillHP.pixelInset = pixelInset;
+//			Rect pixelInset = fillHP.pixelInset;
+//			pixelInset.width = 100 * remainingHP / maxHP;
+	//		fillHP.pixelInset = pixelInset;
 
 			// Cache the horizontal input.
 			float h = Input.GetAxis ("Horizontal");
