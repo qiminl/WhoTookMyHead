@@ -1,34 +1,19 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/PlayerControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Quest.cs">
     <Files>
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="65" Column="2" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CameraFollow.cs">
-    <Files>
-      <File FileName="Assets/monsterAttackScript.cs" Line="31" Column="6" />
-      <File FileName="Assets/scripts/CameraFollow.cs" Line="43" Column="33" />
-<<<<<<< HEAD
-=======
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/PlayerControl.cs">
-    <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="15" Column="32" />
-      <File FileName="Assets/scripts/CameraControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="245" Column="1" />
-      <File FileName="Assets/scripts/GameGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/groundCheckScript.cs" Line="9" Column="3" />
-=======
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="157" Column="39" />
-      <File FileName="Assets/HeadControl.cs" Line="21" Column="59" />
-      <File FileName="Assets/scripts/ItemManage.cs" Line="42" Column="23" />
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+      <File FileName="Assets/scripts/CameraFollow.cs" Line="18" Column="3" />
+      <File FileName="Assets/scripts/GameGUI.cs" Line="70" Column="3" />
+      <File FileName="Assets/scripts/PermenetScript.cs" Line="4" Column="46" />
+      <File FileName="Assets/scripts/PlayerControl.cs" Line="29" Column="2" />
+      <File FileName="Assets/scripts/ItemManage.cs" Line="64" Column="3" />
+      <File FileName="Assets/scripts/Item.cs" Line="4" Column="36" />
+      <File FileName="Assets/scripts/Quest.cs" Line="4" Column="37" />
+      <File FileName="Assets/scripts/monsterMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/ExitDoorScript.cs" Line="15" Column="41" />
+      <File FileName="Assets/scripts/HeadControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/MeleeAttackScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/ItemListControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
