@@ -23,7 +23,7 @@ public class monsterMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.Find("player");
-		groundCheck = transform.Find ("groundCheck");
+		groundCheck = transform.Find ("/monster/groundCheck");
 		anim = GetComponent<Animator> ();
 	}
 	
@@ -34,10 +34,10 @@ public class monsterMovement : MonoBehaviour {
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
 		print("grounded?  " + grounded);
 		// record on ground position
-/*		if (grounded) {
+		if (grounded) {
 			groundedPos = transform.position;
 		}
-*/
+
 		if (!grounded && !turned) {
 			Flip (); 
 		}
@@ -45,12 +45,20 @@ public class monsterMovement : MonoBehaviour {
 			turned = false;
 		}
 		// if not grounded and falling, return to the position before drops
-/*		if (!grounded && rigidbody2D.velocity.y < 0) {
+		if (!grounded && rigidbody2D.velocity.y < 0) {
 			transform.position = groundedPos;	
 		}
-*/
 		rigidbody2D.velocity = new Vector2 (xSpeed, rigidbody2D.velocity.y);
 
+		if (isAttack == true) {
+			currentTime += Time.deltaTime;		
+		}
+
+		if (isAttack == true && (currentTime - attackInterval) > 1) {
+			print("wallalaallal");
+			dealDamageToPlayer(player);
+			attackInterval = currentTime;
+		}
 	}
 
 	void Flip ()
@@ -65,8 +73,23 @@ public class monsterMovement : MonoBehaviour {
 		xSpeed *= -1;
 		turned = true;
 	}
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.name == "player") {
+			currentTime = 0;
+			// monster attacks every 0.5 seconds
+			isAttack = true;	
 
-	public void dealDamageToPlayer(GameObject player){
+		}
+		
+	}
+	void OnCollisionExit2D(Collision2D coll){
+		if (coll.gameObject.name == "player") {
+			isAttack = false;	
+			currentTime= 0;
+		}
+	}
+
+	void dealDamageToPlayer(GameObject player){
 		PlayerControl playerControl;
 		playerControl = player.GetComponent <PlayerControl> ();
 		playerControl.remainingHP -= damage;

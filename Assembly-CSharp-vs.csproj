@@ -48,8 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\HeadControl.cs" />
      <Compile Include="Assets\MeleeAttackScript.cs" />
-     <Compile Include="Assets\ProjectileScript.cs" />
-     <Compile Include="Assets\monsterAttackScript.cs" />
      <Compile Include="Assets\scripts\CameraControl.cs" />
      <Compile Include="Assets\scripts\CameraFollow.cs" />
      <Compile Include="Assets\scripts\GameGUI.cs" />

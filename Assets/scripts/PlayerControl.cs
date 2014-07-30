@@ -152,10 +152,7 @@ public class PlayerControl : MonoBehaviour
 
 		// attack
 		if (Input.GetKeyDown (KeyCode.Z)) {
-			
 			isAttack = true;	
-			rangeAttack();
-
 		}
 		else if (Input.GetKeyUp (KeyCode.Z)) {
 			isAttack = false;		
@@ -190,35 +187,15 @@ public class PlayerControl : MonoBehaviour
 			}
 
 	}
-	void rangeAttack(){
-		if (isAttack && headNum == 1) {
-			GameObject playerHead = GameObject.Find ("/player/Head");
-			Object projectilePrefab = Resources.Load("projectile");
-			if(projectilePrefab != null){
-				print("player Head pos = " + playerHead.transform.position);
-				print("shoot!!!");
-				Vector3 projectilePos = new Vector3();
-				projectilePos.x = transform.position.x + playerHead.transform.position.x;
-				projectilePos.y = transform.position.y + playerHead.transform.position.y;
-				projectilePos.z = 199;
-				print("player pos = " + transform.position);
-				print ("projectilePos = " + projectilePos);
-				GameObject projectile = Instantiate(projectilePrefab, playerHead.transform.position, Quaternion.identity) as GameObject;
-				if(facingRight)
-					projectile.rigidbody2D.AddForce(new Vector2(300f, 100f));
-				else
-					projectile.rigidbody2D.AddForce(new Vector2(-300f, 100f));
-
-			}
-		}	
-	}
 void OnCollisionEnter2D(Collision2D other){
 
-	if (other.gameObject.tag == "Enemy") {
+	if (other.gameObject.tag == "monsters") {
 		print("monster encountered!");	
 			// droping
 			if(rigidbody2D.velocity.y < 0 && !grounded){
-				grounded = true;
+				monsterMovement monster = other.gameObject.GetComponent <monsterMovement>();
+				monster.isDead = true;
+				Destroy(other.gameObject, 0.1f);
 
 			}
 	}
