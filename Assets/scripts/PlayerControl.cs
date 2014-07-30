@@ -60,9 +60,12 @@ public class PlayerControl : MonoBehaviour
 					jump = true;
 			if (remainingHP <= 0) {
 				died = true;		
-			}	
+
+			}
+	
+
 				// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
-		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
+		//grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
 		
 		print ("player grounded ?" + grounded);
 		anim.SetBool ("Grounded", grounded);
