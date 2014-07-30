@@ -8,7 +8,6 @@ public class GameGUI : MonoBehaviour {
 	public ArrayList itemObjectList;
 	private GameObject player;
 	public GameObject entryDoor;
-
 	void Start () {
 		Vector3 playerInsPos = entryDoor.transform.position;
 		Object playerObject = Resources.Load ("player", typeof(GameObject));
@@ -32,7 +31,7 @@ public class GameGUI : MonoBehaviour {
 			player.name = "player";
 		}
 		Vector2 StartScrrenPos = new Vector2 (-0.3f, -0.3f);
-/*
+
 		if (ArrayLength < itemList.Count) {
 			for (int i = ArrayLength; i < itemList.Count; i++) {
 				Object prefab = Resources.Load ("itemBox", typeof(GameObject));
@@ -52,7 +51,7 @@ public class GameGUI : MonoBehaviour {
 			ArrayLength = itemList.Count;
 		}
 
-	
+		
 		// move all item list position
 		for(int i = 0; i < itemObjectList.Count; i++){
 			Vector2 itemScreenPos = new Vector2 (StartScrrenPos.x + i * 0.1f, StartScrrenPos.y);
@@ -65,23 +64,11 @@ public class GameGUI : MonoBehaviour {
 			itemObject.transform.localPosition = itemPos;
 			
 		}
-*/		
 
 	}
 
-	void OnGUI(){
-		// show the item you have right now
-		Vector2 startPos = new Vector2 (0, Screen.height - 100);
-		for (int i = 0; i < itemList.Count; i++) {
 
-			Rect guiRect = new Rect(startPos.x + i * 50, startPos.y, 50, 50);
-			Item item = itemList[i] as Item;
-			print ("item = " + item.name);
-			GUI.Box(guiRect, item.itemTexture);
-		}
-	}
 	/*	
-	 * void OnGUI(){
 		Texture2D emptyTex = Resources.Load ("emptyHP") as Texture2D;
 		Texture2D fullTex = Resources.Load ("fillHP") as Texture2D;
 		Vector2 pos = new Vector2 (10, 10);
@@ -96,6 +83,5 @@ public class GameGUI : MonoBehaviour {
 				GUI.Box(new Rect(0,0, size.x, size.y), fullTex);
 			GUI.EndGroup();
 		GUI.EndGroup();
-		}
 */
 }

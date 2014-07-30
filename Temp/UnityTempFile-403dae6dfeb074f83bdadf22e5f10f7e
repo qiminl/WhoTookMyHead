@@ -40,7 +40,6 @@
 'Assets/ExitDoorScript.cs'
 'Assets/HeadControl.cs'
 'Assets/MeleeAttackScript.cs'
-'Assets/PermenetScript.cs'
 'Assets/ProjectileScript.cs'
 'Assets/monsterAttackScript.cs'
 'Assets/scripts/CameraControl.cs'
