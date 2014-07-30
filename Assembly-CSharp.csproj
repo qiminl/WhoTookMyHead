@@ -46,12 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-     <Compile Include="Assets\groundCheckScript.cs" />
-=======
      <Compile Include="Assets\HeadControl.cs" />
      <Compile Include="Assets\MeleeAttackScript.cs" />
->>>>>>> FETCH_HEAD
      <Compile Include="Assets\scripts\CameraControl.cs" />
      <Compile Include="Assets\scripts\CameraFollow.cs" />
      <Compile Include="Assets\scripts\GameGUI.cs" />
