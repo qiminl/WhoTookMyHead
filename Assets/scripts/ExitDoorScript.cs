@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ExitDoorScript : MonoBehaviour {
 
+	public string nextScene;
 	// Use this for initialization
 	void Start () {
 	
@@ -16,7 +17,7 @@ public class ExitDoorScript : MonoBehaviour {
 		if (other.tag == "Player") {
 			print("exit");
 			if(Input.GetKey("up")){
-				Application.LoadLevel("Main Scene");
+				Application.LoadLevel(nextScene);
 			}		
 		}
 	}
