@@ -6,27 +6,37 @@ public class Quest : MonoBehaviour {
 	public string name;
 	public string questInfo;
 	public bool isComplete;
-	public ArrayList itemList = new ArrayList();
-	Quest(){
+	public Item[] items;
+	public Quest(){
 		name = "default";
 		questInfo = "undefined";
+		isComplete = false;
 	}
-	Quest(string name){
+	public Quest(string name){
 		this.name = name;
 		questInfo = "undefined";
+		isComplete = false;
 	}
-	Quest(string name, string questInfo){
+	public Quest(string name, string questInfo){
 		this.name = name;
 		this.questInfo = questInfo;
+		isComplete = false;
 	}
 
-	// Use this for initialization
-	void Start () {
-	
+	public bool isCompleted(ArrayList itemList){
+
+		int i = 0;
+		while(i < items.Length){
+			for(int j = 0; j < itemList.Count; j++){
+				Item listedItem = itemList[j] as Item;
+				if(items[i] == listedItem){
+					i++;
+				}
+			}
+			return false;
+		}
+		return true;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public void effect(){
 	}
 }
