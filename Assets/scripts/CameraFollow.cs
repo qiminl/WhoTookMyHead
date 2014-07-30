@@ -40,10 +40,13 @@ public class CameraFollow : MonoBehaviour
 	void FixedUpdate ()
 	{
 		playerTransform = GameObject.Find("player").transform;
-		transform.position = new Vector3 (playerTransform.position.x, playerTransform.position.y, -4);
+		if (playerTransform != null) {
+				transform.position = new Vector3 (playerTransform.position.x, playerTransform.position.y, -4);
+		}
 		if (playerTransform == null) {
 			print ("no plater found");		
 		}
+
 		TrackPlayer();
 
 	}
