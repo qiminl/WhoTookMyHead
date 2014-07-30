@@ -62,8 +62,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400006}
-  - 60: {fileID: 6000002}
   - 114: {fileID: 11400004}
+  - 58: {fileID: 5800000}
   m_Layer: 9
   m_Name: AttackRange
   m_TagString: Untagged
@@ -117,7 +117,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .617195129, y: .774109244, z: -199}
+  m_LocalPosition: {x: .336885452, y: .0428187549, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -137,6 +137,17 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
+--- !u!58 &5800000
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: .600000024
+  m_Center: {x: 0, y: 0}
 --- !u!60 &6000000
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -160,26 +171,6 @@ PolygonCollider2D:
       - {x: .0263829902, y: -.34723404}
       - {x: .0263829902, y: -.303829789}
       - {x: .069787249, y: -.390638322}
---- !u!60 &6000002
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100006}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Poly:
-    m_Paths:
-    - - {x: -.325675488, y: -.273497701}
-      - {x: -.0209217072, y: -.234389544}
-      - {x: .0450391769, y: -.25771296}
-      - {x: .182681084, y: -.431601018}
-      - {x: .218791008, y: -.684771299}
-      - {x: .216396332, y: -.915708184}
-      - {x: .0686297417, y: -1.09852827}
-      - {x: -.0972876549, y: -1.13988614}
-      - {x: -.587785363, y: -.809016943}
 --- !u!61 &6100000
 BoxCollider2D:
   m_ObjectHideFlags: 1

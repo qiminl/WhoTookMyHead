@@ -9,11 +9,11 @@ public class GameGUI : MonoBehaviour {
 	private GameObject player;
 	public GameObject entryDoor;
 	void Start () {
-	/*	Vector3 playerInsPos = entryDoor.transform.position;
+		Vector3 playerInsPos = entryDoor.transform.position;
 		Object playerObject = Resources.Load ("player", typeof(GameObject));
 		player = Instantiate (playerObject, playerInsPos, Quaternion.identity) as GameObject;
 		player.name = "player";
-		*/
+
 		if (player == null) {
 			print ("player not created");		
 		}
@@ -24,12 +24,12 @@ public class GameGUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	/*	if (player == null) {
+		if (player == null) {
 			Vector3 playerInsPos = entryDoor.transform.position;
 			Object playerObject = Resources.Load ("player", typeof(GameObject));
 			player = Instantiate (playerObject, playerInsPos, Quaternion.identity) as GameObject;
 			player.name = "player";
-		}*/
+		}
 		Vector2 StartScrrenPos = new Vector2 (-0.3f, -0.3f);
 
 		if (ArrayLength < itemList.Count) {
