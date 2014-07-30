@@ -24,12 +24,7 @@ public class PlayerControl : MonoBehaviour
 	GUITexture fillHP;
 	public int headNum;	// 0 for headLess, 1 for rectHead(range), 2 for triangleHead(melee)
 	public bool isAttack;
-	GameObject data;
-	PermenetScript dataScripts;
 	void Start(){
-		data = GameObject.Find("permenentObject");
-		dataScripts = data.GetComponent<PermenetScript> ();
-		headNum = dataScripts.headNum;
 		isAttack = false;
 //		camPos = transform.Find("/Main Camera/CamPos");
 //		camPos.position = transform.position;
@@ -89,8 +84,7 @@ public class PlayerControl : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-		// refresh the data
-		dataScripts.headNum = headNum;
+
 		// determine the head
 
 		if (headNum == 0) {
