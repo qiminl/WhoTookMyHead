@@ -74,7 +74,7 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
---- !u!21 &639290982
+--- !u!21 &531866868
 Material:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ Material:
           name: _Cutoff
         second: .5
     m_Colors: {}
---- !u!43 &961967648
+--- !u!43 &1398784055
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -352,7 +352,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1898272461}
-  m_Mesh: {fileID: 961967648}
+  m_Mesh: {fileID: 1398784055}
 --- !u!64 &1898272463
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -366,7 +366,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 0
-  m_Mesh: {fileID: 961967648}
+  m_Mesh: {fileID: 1398784055}
 --- !u!23 &1898272464
 Renderer:
   m_ObjectHideFlags: 0
@@ -380,7 +380,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 639290982}
+  - {fileID: 531866868}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   TilesetsTextures:
   - {fileID: 2800000, guid: a5674242ea19548d599bf51083664b6e, type: 3}
   TilesetsMaterials:
-  - {fileID: 639290982}
+  - {fileID: 531866868}
 --- !u!4 &1898272466
 Transform:
   m_ObjectHideFlags: 0
@@ -469,11 +469,11 @@ Prefab:
     - target: {fileID: 2300000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 639290982}
+      objectReference: {fileID: 531866868}
     - target: {fileID: 6400000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 961967648}
+      objectReference: {fileID: 1398784055}
     m_RemovedComponents:
     - {fileID: 3300000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
