@@ -9,10 +9,11 @@ public class GameGUI : MonoBehaviour {
 	private GameObject player;
 	public GameObject entryDoor;
 	void Start () {
-		Vector3 playerInsPos = entryDoor.transform.position;
+	/*	Vector3 playerInsPos = entryDoor.transform.position;
 		Object playerObject = Resources.Load ("player", typeof(GameObject));
 		player = Instantiate (playerObject, playerInsPos, Quaternion.identity) as GameObject;
 		player.name = "player";
+		*/
 		if (player == null) {
 			print ("player not created");		
 		}
@@ -23,19 +24,19 @@ public class GameGUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (player == null) {
+	/*	if (player == null) {
 			Vector3 playerInsPos = entryDoor.transform.position;
 			Object playerObject = Resources.Load ("player", typeof(GameObject));
 			player = Instantiate (playerObject, playerInsPos, Quaternion.identity) as GameObject;
 			player.name = "player";
-		}
+		}*/
 		Vector2 StartScrrenPos = new Vector2 (-0.3f, -0.3f);
 
 		if (ArrayLength < itemList.Count) {
 			for (int i = ArrayLength; i < itemList.Count; i++) {
 				Object prefab = Resources.Load ("itemBox", typeof(GameObject));
-				GameObject clone = Instantiate (prefab, Vector2.zero, Quaternion.identity) as GameObject;
-				
+				if(prefab != null){
+				GameObject clone = Instantiate (prefab, Vector2.zero, Quaternion.identity) as GameObject;		
 				SpriteRenderer cloneSprite = clone.GetComponent<SpriteRenderer> ();
 				string itemSpriteName = itemList [i] as string;
 				//print ("itemSprite = " + itemSpriteName);
@@ -44,6 +45,7 @@ public class GameGUI : MonoBehaviour {
 				clone.name = itemSpriteName;
 				// put clone item into the itemObjectList
 				itemObjectList.Add(clone);
+				}
 				
 			}
 			ArrayLength = itemList.Count;
