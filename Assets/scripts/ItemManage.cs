@@ -40,7 +40,7 @@ public class ItemManage : MonoBehaviour {
 			playerControl.headNum = 1;
 			GameObject NPC = GameObject.Find ("NPC1(clone)");
 			NPCMovement npcControl = NPC.GetComponent<NPCMovement>();
-			npcControl.wordsToSay = "You can use the Head to Fight those Enemies now\n" +
+			npcControl.inputWords = "You can use the Head to Fight those Enemies now\n" +
 				"Try to press the Z buttom to attack!~";
 
 		}
@@ -48,11 +48,7 @@ public class ItemManage : MonoBehaviour {
 			
 			GameObject player = GameObject.Find ("player");
 			PlayerControl playerControl = player.GetComponent<PlayerControl> ();
-			playerControl.headNum = 2;	
-			GameObject NPC = GameObject.Find ("NPC1(clone)");
-			NPCMovement npcControl = NPC.GetComponent<NPCMovement>();
-			npcControl.wordsToSay = "You can use the Head to Fight those Enemies now\n" +
-				"Try to press the Z buttom to attack!~";				
+			playerControl.headNum = 2;					
 		}
 	}
 }
