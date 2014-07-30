@@ -46,7 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\groundCheckScript.cs" />
+=======
+     <Compile Include="Assets\HeadControl.cs" />
+     <Compile Include="Assets\MeleeAttackScript.cs" />
+>>>>>>> FETCH_HEAD
      <Compile Include="Assets\scripts\CameraControl.cs" />
      <Compile Include="Assets\scripts\CameraFollow.cs" />
      <Compile Include="Assets\scripts\GameGUI.cs" />
@@ -60,6 +65,7 @@
      <Compile Include="Assets\scripts\TileMap.cs" />
      <Compile Include="Assets\scripts\TiledTilemaps.cs" />
      <Compile Include="Assets\scripts\cameraController.cs" />
+     <Compile Include="Assets\scripts\groundCheckScript.cs" />
      <Compile Include="Assets\scripts\monsterMovement.cs" />
      <None Include="Assets\TileAssets\IntroFirst.xml" />
      <None Include="Assets\TileAssets\main map.xml" />

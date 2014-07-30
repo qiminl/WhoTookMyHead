@@ -22,9 +22,10 @@ public class PlayerControl : MonoBehaviour
 	public int fillHPmaxWidth = 100;
 //	public Transform camPos;
 	GUITexture fillHP;
-	public int headNum;	// 0 for headLess, 1 for rectHead, 2 for triangleHead
-
+	public int headNum;	// 0 for headLess, 1 for rectHead(range), 2 for triangleHead(melee)
+	public bool isAttack;
 	void Start(){
+		isAttack = false;
 //		camPos = transform.Find("/Main Camera/CamPos");
 //		camPos.position = transform.position;
 
@@ -46,8 +47,8 @@ public class PlayerControl : MonoBehaviour
 	{
 		if (died == true) {
 			print ("player is dead");
-			anim.SetBool("Dead", true);
-				Destroy(this.gameObject, 0.5f);		
+				anim.SetBool("Dead", true);
+				Destroy(gameObject, 0.5f);		
 			}
 					// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
 	//		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
@@ -59,8 +60,12 @@ public class PlayerControl : MonoBehaviour
 					jump = true;
 			if (remainingHP <= 0) {
 				died = true;		
+<<<<<<< HEAD
 			}
 	
+=======
+			}	
+>>>>>>> FETCH_HEAD
 				// The player is grounded if a linecast to the groundcheck position hits anything on the ground layer.
 		//grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground")); 
 		
@@ -82,10 +87,13 @@ public class PlayerControl : MonoBehaviour
 	void FixedUpdate ()
 	{
 
+		// determine the head
+
 		if (headNum == 0) {
 			anim.SetBool ("headLess", true);
 			anim.SetBool ("rectHead", false);
 			anim.SetBool ("triangleHead", false);
+
 		}
 		else if (headNum == 1) {
 			anim.SetBool ("headLess", false);
@@ -111,7 +119,7 @@ public class PlayerControl : MonoBehaviour
 			anim.SetFloat ("VerticalSpeed", rigidbody2D.velocity.y);
 
 			// ignore collide with platform when jumping
-			Physics2D.IgnoreLayerCollision (8, 9, rigidbody2D.velocity.y > 0);
+			Physics2D.IgnoreLayerCollision (9, 12, rigidbody2D.velocity.y > 0);
 
 			// If the player is changing direction (h has a different sign to velocity.x) or hasn't reached maxSpeed yet...
 			if (h * rigidbody2D.velocity.x < maxSpeed)
@@ -143,6 +151,15 @@ public class PlayerControl : MonoBehaviour
 					// Make sure the player can't jump again until the jump conditions from Update are satisfied.
 					jump = false;
 			}
+
+		// attack
+		if (Input.GetKeyDown (KeyCode.Z)) {
+			isAttack = true;	
+		}
+		else if (Input.GetKeyUp (KeyCode.Z)) {
+			isAttack = false;		
+		}
+		anim.SetBool ("isAttack", isAttack);
 			edgeDetection ();
 	}
 
@@ -186,59 +203,4 @@ void OnCollisionEnter2D(Collision2D other){
 	}
 }
 }
-/*
-void OnTriggerEnter2D(Collider2D other) {
-	print ("sth entered!!!");
 
-	// if it is ground
-	if (other.gameObject.layer == 8) {
-		print("groundddddd");
-		// if player is going up, ignore
-		if(rigidbody2D.velocity.y < 0){
-			print("lalalalalal");
-			rigidbody2D.velocity = Vector3.zero;
-			rigidbody2D.gravityScale = 0;
-			rigidbody2D.isKinematic = true;
-			rigidbody2D.angularVelocity = 0;
-		}
-	}
-}
-*/
-	/*
-public IEnumerator Taunt()
-{
-	// Check the random chance of taunting.
-	float tauntChance = Random.Range(0f, 100f);
-	if(tauntChance > tauntProbability)
-	{
-		// Wait for tauntDelay number of seconds.
-		yield return new WaitForSeconds(tauntDelay);
-
-		// If there is no clip currently playing.
-		if(!audio.isPlaying)
-		{
-			// Choose a random, but different taunt.
-			tauntIndex = TauntRandom();
-
-			// Play the new taunt.
-			audio.clip = taunts[tauntIndex];
-			audio.Play();
-		}
-	}
-}
-
-
-int TauntRandom()
-{
-	// Choose a random index of the taunts array.
-	int i = Random.Range(0, taunts.Length);
-
-	// If it's the same as the previous taunt...
-	if(i == tauntIndex)
-		// ... try another random taunt.
-		return TauntRandom();
-	else
-		// Otherwise return this index.
-		return i;
-}
-*/

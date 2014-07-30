@@ -45,7 +45,7 @@ public class NPCMovement : MonoBehaviour {
 				wordsToSay = "";
 			}
 		}
-		print (gameObject.name + "\t says: " + wordsToSay);
+		//print (gameObject.name + "\t says: " + wordsToSay);
 	
 	}
 	void showWords(string s){
@@ -56,7 +56,7 @@ public class NPCMovement : MonoBehaviour {
 	//	wordsStyle.fontSize  = 14;
 		if (wordsToSay != "") {
 			GUISkin guiSkin = Resources.Load("DialogSkin") as GUISkin;
-			print ("name of GUI skin" + guiSkin.name);
+		//	print ("name of GUI skin" + guiSkin.name);
 			GUI.color = new Color(255, 255, 255, 0.9f);
 
 			GUIStyle style = new GUIStyle(guiSkin.box);
