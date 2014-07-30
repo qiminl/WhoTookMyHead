@@ -46,14 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\HeadControl.cs" />
+     <Compile Include="Assets\MeleeAttackScript.cs" />
+     <Compile Include="Assets\ProjectileScript.cs" />
+     <Compile Include="Assets\monsterAttackScript.cs" />
      <Compile Include="Assets\scripts\CameraControl.cs" />
      <Compile Include="Assets\scripts\CameraFollow.cs" />
      <Compile Include="Assets\scripts\GameGUI.cs" />
      <Compile Include="Assets\scripts\GameObjectTextScript.cs" />
-     <Compile Include="Assets\scripts\HeadControl.cs" />
      <Compile Include="Assets\scripts\ItemListControl.cs" />
      <Compile Include="Assets\scripts\ItemManage.cs" />
-     <Compile Include="Assets\scripts\MeleeAttackScript.cs" />
      <Compile Include="Assets\scripts\NPCMovement.cs" />
      <Compile Include="Assets\scripts\PlayerControl.cs" />
      <Compile Include="Assets\scripts\Quest.cs" />
