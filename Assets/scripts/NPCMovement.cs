@@ -25,6 +25,7 @@ public class NPCMovement : MonoBehaviour {
 			if (Physics.Raycast (ray, out hit))
 			{  
 				if(hit.transform.gameObject == gameObject){
+					wordsToSay = "";
 					// deal with the inputWords
 			//		int j = 0;
 					print ("inputWords: " + inputWords);

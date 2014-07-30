@@ -37,9 +37,10 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
-'Assets/ExitDoorScript.cs'
 'Assets/HeadControl.cs'
 'Assets/MeleeAttackScript.cs'
+'Assets/ProjectileScript.cs'
+'Assets/monsterAttackScript.cs'
 'Assets/scripts/CameraControl.cs'
 'Assets/scripts/CameraFollow.cs'
 'Assets/scripts/GameGUI.cs'
