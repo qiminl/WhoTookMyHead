@@ -220,6 +220,10 @@ MonoBehaviour:
   fillHPmaxWidth: 100
   headNum: 0
   isAttack: 0
+  minXMargin: 0
+  minYMargin: -100
+  maxXMargin: 0
+  maxYMargin: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

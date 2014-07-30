@@ -225,6 +225,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6000000, guid: 8f6df9c7dc1e34623af4f88eff0ae16c, type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f6df9c7dc1e34623af4f88eff0ae16c, type: 2}
   m_RootGameObject: {fileID: 1052328124}
@@ -1423,7 +1427,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1052328124}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Poly:
     m_Paths:
     - - {x: -.0494522341, y: .107240506}

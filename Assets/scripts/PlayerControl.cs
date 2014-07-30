@@ -27,6 +27,7 @@ public class PlayerControl : MonoBehaviour
 	GameObject data;
 	PermenetScript dataScripts;
 
+	public float minXMargin, minYMargin, maxXMargin, maxYMargin;
 	void Start(){
 		data = GameObject.Find("PermenentObject");
 		dataScripts = data.GetComponent<PermenetScript> ();
@@ -186,7 +187,7 @@ public class PlayerControl : MonoBehaviour
 					transform.position = new Vector3 (35f, transform.position.y, transform.position.z);		
 			}*/
 
-			if (transform.position.y < -20) {
+			if (transform.position.y < minYMargin) {
 					died = true;
 		
 			}
