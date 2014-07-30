@@ -238,32 +238,6 @@ Prefab:
   m_RootGameObject: {fileID: 974871333}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!21 &68748488
-Material:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Tileset fistIntro
-  m_Shader: {fileID: 10751, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: []
-  m_CustomRenderQueue: -1
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-      data:
-        first:
-          name: _MainTex
-        second:
-          m_Texture: {fileID: 2800000, guid: a5674242ea19548d599bf51083664b6e, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-    m_Floats:
-      data:
-        first:
-          name: _Cutoff
-        second: .5
-    m_Colors: {}
 --- !u!1 &150564815
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +276,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &283941774
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,10 +323,7 @@ Transform:
   - {fileID: 1435855049}
   - {fileID: 1617342898}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 4
-=======
->>>>>>> FETCH_HEAD
 --- !u!1001 &336455518
 Prefab:
   m_ObjectHideFlags: 0
@@ -476,8 +448,11 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
 --- !u!4 &352436210
 Transform:
   m_ObjectHideFlags: 0
@@ -490,6 +465,7 @@ Transform:
   m_Children:
   - {fileID: 1760600269}
   m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!114 &352436211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,9 +546,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 2786201725
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b7a1dc68c129047bfaa35dd8fecfd631, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &393919815
@@ -587,6 +562,7 @@ Transform:
   m_Children:
   - {fileID: 804372413}
   m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1001 &416968037
 Prefab:
   m_ObjectHideFlags: 0
@@ -631,7 +607,6 @@ Prefab:
   m_RootGameObject: {fileID: 533518213}
   m_IsPrefabParent: 0
   m_IsExploded: 1
-<<<<<<< HEAD
 --- !u!21 &439338932
 Material:
   serializedVersion: 3
@@ -658,8 +633,6 @@ Material:
           name: _Cutoff
         second: .5
     m_Colors: {}
-=======
->>>>>>> FETCH_HEAD
 --- !u!1 &476920780
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +672,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 0
 --- !u!1001 &477609203
 Prefab:
   m_ObjectHideFlags: 0
@@ -818,11 +792,7 @@ MeshCollider:
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
   m_Convex: 0
-<<<<<<< HEAD
   m_Mesh: {fileID: 1049885604}
-=======
-  m_Mesh: {fileID: 1062939191}
->>>>>>> FETCH_HEAD
 --- !u!23 &524176151
 Renderer:
   m_ObjectHideFlags: 0
@@ -836,19 +806,14 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-<<<<<<< HEAD
   - {fileID: 439338932}
-=======
-  - {fileID: 68748488}
->>>>>>> FETCH_HEAD
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!114 &524176152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,11 +836,7 @@ MonoBehaviour:
   TilesetsTextures:
   - {fileID: 2800000, guid: a5674242ea19548d599bf51083664b6e, type: 3}
   TilesetsMaterials:
-<<<<<<< HEAD
   - {fileID: 439338932}
-=======
-  - {fileID: 68748488}
->>>>>>> FETCH_HEAD
 --- !u!4 &524176153
 Transform:
   m_ObjectHideFlags: 0
@@ -887,17 +848,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!33 &524176154
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 524176148}
-<<<<<<< HEAD
   m_Mesh: {fileID: 1049885604}
-=======
-  m_Mesh: {fileID: 1062939191}
->>>>>>> FETCH_HEAD
 --- !u!1 &533518213
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +890,7 @@ Transform:
   - {fileID: 1074927122}
   - {fileID: 1842626752}
   m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!60 &533518215
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -958,7 +917,7 @@ PolygonCollider2D:
       - {x: .069787249, y: -.390638322}
 --- !u!95 &533518216
 Animator:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9500000, guid: edc100bc378c04d4bb33a708d610cc77,
     type: 2}
@@ -968,8 +927,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7a7fe789117d643a3be9736854cf87fe, type: 2}
   m_CullingMode: 0
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!114 &533518217
 MonoBehaviour:
@@ -1030,9 +989,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 4020468585
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ace114bcdc0954307abb04498fa2b532, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &636146400
@@ -1074,6 +1032,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 2
 --- !u!1 &804372412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1061,7 @@ Transform:
   m_LocalScale: {x: .483565718, y: .483565837, z: 1}
   m_Children: []
   m_Father: {fileID: 393919815}
+  m_RootOrder: 0
 --- !u!114 &804372414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,6 +1194,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 1
 --- !u!1001 &998714796
 Prefab:
   m_ObjectHideFlags: 0
@@ -1290,11 +1251,7 @@ Prefab:
   m_RootGameObject: {fileID: 1435855047}
   m_IsPrefabParent: 0
   m_IsExploded: 1
-<<<<<<< HEAD
 --- !u!43 &1049885604
-=======
---- !u!43 &1062939191
->>>>>>> FETCH_HEAD
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1465,6 +1422,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 533518214}
+  m_RootOrder: 1
 --- !u!212 &1074927123
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1484,9 +1442,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 0
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 602712f9fc1b64cb9be98449829f9007, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1074927124
@@ -1557,7 +1514,7 @@ MonoBehaviour:
     around, \nAnd space button to jump"
 --- !u!95 &1201101398
 Animator:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9500000, guid: 581d08b4d3d02464ea8ba96c2a515f2b,
     type: 2}
@@ -1567,8 +1524,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 474ba19a89a4c4717a2511713f753cbf, type: 2}
   m_CullingMode: 0
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!212 &1201101399
 SpriteRenderer:
@@ -1589,9 +1546,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 2483638813
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 6d24344351d8543999a6a9960f74d8a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1201101400
@@ -1605,6 +1561,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &1280909209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1592,7 @@ Transform:
   m_Children:
   - {fileID: 2110016392}
   m_Father: {fileID: 0}
+  m_RootOrder: 7
 --- !u!58 &1280909211
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1680,9 +1638,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 2786201725
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 602712f9fc1b64cb9be98449829f9007, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1363578229
@@ -1735,7 +1692,7 @@ MonoBehaviour:
     one and give it to me
 --- !u!95 &1363578232
 Animator:
-  serializedVersion: 2
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9500000, guid: 581d08b4d3d02464ea8ba96c2a515f2b,
     type: 2}
@@ -1745,8 +1702,8 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 474ba19a89a4c4717a2511713f753cbf, type: 2}
   m_CullingMode: 0
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
-  m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!212 &1363578233
 SpriteRenderer:
@@ -1767,9 +1724,8 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
-  m_SortingOrder: 0
   m_SortingLayerID: 2483638813
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 6d24344351d8543999a6a9960f74d8a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1363578234
@@ -1783,6 +1739,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &1435855047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1779,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 5
 --- !u!1001 &1570546590
 Prefab:
   m_ObjectHideFlags: 0
@@ -2002,6 +1960,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 6
 --- !u!1 &1631989497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,6 +1999,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 9
 --- !u!1 &1645091344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,6 +2039,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 3
 --- !u!1 &1738610696
 GameObject:
   m_ObjectHideFlags: 0
@@ -2118,6 +2079,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 283941776}
+  m_RootOrder: 4
 --- !u!1 &1760600268
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,6 +2106,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 352436210}
+  m_RootOrder: 0
 --- !u!1 &1781282590
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2159,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 533518214}
+  m_RootOrder: 0
 --- !u!1001 &1801695957
 Prefab:
   m_ObjectHideFlags: 0
@@ -2298,19 +2262,11 @@ Prefab:
     - target: {fileID: 6400000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
       propertyPath: m_Mesh
       value: 
-<<<<<<< HEAD
       objectReference: {fileID: 1049885604}
     - target: {fileID: 2300000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 439338932}
-=======
-      objectReference: {fileID: 1062939191}
-    - target: {fileID: 2300000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 68748488}
->>>>>>> FETCH_HEAD
     - target: {fileID: 11400000, guid: a7d0201bced744792b9b13eee05ae3f8, type: 2}
       propertyPath: TilesetsMaterials.Array.data[0]
       value: 
@@ -2382,6 +2338,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 533518214}
+  m_RootOrder: 2
 --- !u!114 &1842626753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2557,6 +2514,7 @@ Transform:
   m_LocalScale: {x: .483565718, y: .483565837, z: 1}
   m_Children: []
   m_Father: {fileID: 1280909210}
+  m_RootOrder: 0
 --- !u!114 &2110016393
 MonoBehaviour:
   m_ObjectHideFlags: 0
