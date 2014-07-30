@@ -1,18 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/PlayerControl.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="15" Column="32" />
-      <File FileName="Assets/scripts/CameraControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="245" Column="1" />
-      <File FileName="Assets/scripts/GameGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/groundCheckScript.cs" Line="9" Column="3" />
-=======
-      <File FileName="Assets/scripts/PlayerControl.cs" Line="157" Column="39" />
-      <File FileName="Assets/HeadControl.cs" Line="21" Column="59" />
-      <File FileName="Assets/scripts/ItemManage.cs" Line="42" Column="23" />
->>>>>>> FETCH_HEAD
+      <File FileName="Assets/scripts/PlayerControl.cs" Line="65" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
