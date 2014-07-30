@@ -9,6 +9,7 @@ public class ItemManage : MonoBehaviour {
 	public GameObject oppositeObject;
 	public string effect;
 
+
 	// Use this for initialization
 	void Start () {
 		guiControl = GameObject.Find("TileMap");
@@ -24,7 +25,13 @@ public class ItemManage : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.tag == "Player") {
 	//		print("player Entered!!!");	
-			gameGUI.itemList.Add(this.gameObject.name);
+			Item item = new Item();
+			item.name = gameObject.name;
+			SpriteRenderer spriteRenderer = renderer as SpriteRenderer;
+			Sprite itemSprite = spriteRenderer.sprite;
+			item.itemSprite = itemSprite;
+			item.itemTexture = itemSprite.texture;
+			gameGUI.itemList.Add(item);
 			showEffect(effect);
 			if(oppositeObject != null){
 				Destroy(oppositeObject);
